@@ -1,3 +1,21 @@
+# World Life Expectancy Project (Data Cleaning)
+
+This project focuses on cleaning the data in a table named world_life_expectancy to prepare it for further analysis. 
+
+**The script addresses three main areas of data cleaning:**
+
+**Duplicate Removal:**
+- It identifies and removes potential duplicate entries in the table. This ensures each record represents unique data.
+  
+**Missing Data Handling:**
+- It addresses missing values in the "Status" column. The script attempts to assign a status (either "Developed" or "Developing") to entries with blank values, potentially based on assumptions or existing data.
+  
+**Missing Data Handling (Attempted):**
+- The script also includes commented-out sections that attempt to address missing values in the "Life expectancy" column. This part is commented out, possibly because the approach might not be ideal or could introduce data integrity issues.
+
+By cleaning the data, this project lays the groundwork for the next stage: exploratory analysis of life expectancy patterns and trends. The cleaned data will allow for more accurate calculations, visualizations, and exploration of relationships between life expectancy and other factors like GDP, BMI, and development status
+
+
 # Project: World Life Expectancy Analysis (Exploratory Data Analysis)
 
  This project aimed to gain insights into life expectancy patterns and its relationship with various factors using a dataset named world_life_expectancy.
